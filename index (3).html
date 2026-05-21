@@ -909,7 +909,7 @@ footer{background:var(--navy);color:#fff}
             </select>
           </div>
           <div class="fg"><label>Qu'attendez-vous de cet échange ?</label><textarea placeholder="Comprendre la valeur de mon entreprise / Structurer ma démarche / Être accompagné..."></textarea></div>
-          <button class="form-submit" onclick="submitForm(this)">Valider et choisir mon créneau →</button>
+          <button class="form-submit" onclick="openModal()">Parler à un expert →</button>
           <p class="form-legal"><svg viewBox="0 0 16 16"><path d="M8 1a3 3 0 00-3 3v2H4a1 1 0 00-1 1v7h10V7a1 1 0 00-1-1h-1V4a3 3 0 00-3-3z"/></svg>Données traitées avec confidentialité — jamais cédées à des tiers. RGPD.</p>
         </div>
       </div>
@@ -1271,20 +1271,20 @@ function toggleMenu(){const m=document.querySelector(".nav-links"),on=m.style.di
       <h2 class="rv" style="font-family:var(--font-serif);font-size:clamp(28px,3.5vw,44px);font-weight:500;color:var(--navy);margin-bottom:0">20 ans à construire<br>ce réseau de confiance.</h2>
       <div class="divider rv"></div>
       <div style="max-width:720px">
-        <div class="step-item rv" style="display:grid;grid-template-columns:80px 1fr;gap:20px;padding:24px 0;border-bottom:1px solid var(--border)">
-          <div style="font-family:var(--font-serif);font-size:28px;font-weight:600;color:var(--gold);line-height:1;padding-top:4px">18 ans</div>
+        <div class="rv" style="display:grid;grid-template-columns:120px 1fr;gap:32px;padding:28px 0;border-bottom:1px solid var(--border);align-items:start">
+          <div style="font-family:var(--font-serif);font-size:20px;font-weight:600;color:var(--gold);line-height:1.2;padding-top:2px;white-space:nowrap">18 ans</div>
           <div><h3 style="font-size:15px;font-weight:600;color:var(--navy);margin-bottom:6px">Premier pas dans l'entrepreneuriat</h3><p style="font-size:13px;color:var(--muted);line-height:1.7">Chef d'entreprise dès 18 ans, fils et petit-fils de commerçants — l'entrepreneuriat est dans son ADN depuis toujours.</p></div>
         </div>
-        <div class="step-item rv rv-d1" style="display:grid;grid-template-columns:80px 1fr;gap:20px;padding:24px 0;border-bottom:1px solid var(--border)">
-          <div style="font-family:var(--font-serif);font-size:28px;font-weight:600;color:var(--gold);line-height:1;padding-top:4px">20+ ans</div>
+        <div class="rv rv-d1" style="display:grid;grid-template-columns:120px 1fr;gap:32px;padding:28px 0;border-bottom:1px solid var(--border);align-items:start">
+          <div style="font-family:var(--font-serif);font-size:20px;font-weight:600;color:var(--gold);line-height:1.2;padding-top:2px;white-space:nowrap">20+ ans</div>
           <div><h3 style="font-size:15px;font-weight:600;color:var(--navy);margin-bottom:6px">Aux côtés des dirigeants de La Réunion</h3><p style="font-size:13px;color:var(--muted);line-height:1.7">Deux décennies d'accompagnement des dirigeantes et dirigeants de La Réunion et des îles Mascareignes dans leurs moments décisifs.</p></div>
         </div>
-        <div class="step-item rv rv-d2" style="display:grid;grid-template-columns:80px 1fr;gap:20px;padding:24px 0;border-bottom:1px solid var(--border)">
-          <div style="font-family:var(--font-serif);font-size:28px;font-weight:600;color:var(--gold);line-height:1;padding-top:4px">400+</div>
+        <div class="rv rv-d2" style="display:grid;grid-template-columns:120px 1fr;gap:32px;padding:28px 0;border-bottom:1px solid var(--border);align-items:start">
+          <div style="font-family:var(--font-serif);font-size:20px;font-weight:600;color:var(--gold);line-height:1.2;padding-top:2px;white-space:nowrap">400+</div>
           <div><h3 style="font-size:15px;font-weight:600;color:var(--navy);margin-bottom:6px">Entrepreneurs dans son réseau</h3><p style="font-size:13px;color:var(--muted);line-height:1.7">Un réseau solide bâti sur la confiance et la durée — acquéreurs potentiels, investisseurs, dirigeants dans la zone Océan Indien.</p></div>
         </div>
-        <div class="step-item rv rv-d3" style="display:grid;grid-template-columns:80px 1fr;gap:20px;padding:24px 0">
-          <div style="font-family:var(--font-serif);font-size:28px;font-weight:600;color:var(--gold);line-height:1;padding-top:4px">Aujourd'hui</div>
+        <div class="rv rv-d3" style="display:grid;grid-template-columns:120px 1fr;gap:32px;padding:28px 0;align-items:start">
+          <div style="font-family:var(--font-serif);font-size:20px;font-weight:600;color:var(--gold);line-height:1.2;padding-top:2px;white-space:nowrap">Aujourd'hui</div>
           <div><h3 style="font-size:15px;font-weight:600;color:var(--navy);margin-bottom:6px">Elity Conseils & Elity Dirigeant</h3><p style="font-size:13px;color:var(--muted);line-height:1.7">Deux offres complémentaires pour accompagner les dirigeants à chaque étape : structurer leur activité aujourd'hui, valoriser et transmettre demain.</p></div>
         </div>
       </div>
